@@ -58,12 +58,18 @@ $res = mysqli_query($conn, $select);
                             <td><a href="view_product_gallery.php?q=<?php echo $row[0] ?>">View Gallery</a></td>
 
                             <?php
-                        }
+                        } else{
                         ?>
-
+                            <td><a href="edit_product.php?q=<?php echo $row[0] ?>">Edit</a></td>
+                            
+                            <td><a href="product_gallery.php?q=<?php echo $row[0] ?>">Add Images to Gallery</a></td>
+                            <td><a href="view_product_gallery.php?q=<?php echo $row[0] ?>">View Gallery</a></td>
+                        <?php    
+                     }
+                     ?>
                     </tr>
                     <?php
-                }
+                } 
                 ?>
             </table>
         </div>
