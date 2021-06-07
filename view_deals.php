@@ -40,6 +40,10 @@ $res= mysqli_query($conn,$select);
                     <td><a href="delete_deals.php?q=<?php echo $row[0] ?>">Delete</a></td>
 
                     <?php
+                }else{
+                ?>
+                   <td><a href="edit_deals.php?q=<?php echo $row[0] ?>">Edit</a></td>
+                <?php
                 }
                 ?>
 
