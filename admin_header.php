@@ -151,7 +151,7 @@ if (is_null($_SESSION['session1']))
                                         class="col-sm-10 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-1">
                                         <ul class="multi-column-dropdown">
                                             <li class="heading"><a href="orders.php">View Pending Orders</a></li>
-                                            <li class="heading"><a href="dispatched_orders.php">View Dispatched Orders</a></li>
+                                            <li class="heading"><a href="dispatched_orders.php">View Dispatch Orders</a></li>
                                         </ul>
                                     </div>
                                     <div class="clearfix"></div>
@@ -246,6 +246,7 @@ if (is_null($_SESSION['session1']))
                                     <div
                                         class="col-sm-10 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-1">
                                         <ul class="multi-column-dropdown">
+                                            <li class="heading"><a href="product.php">Add Product</a></li>
                                             <li class="heading"><a href="view_product.php">View Products</a></li>
                                         </ul>
                                     </div>
@@ -281,6 +282,7 @@ if (is_null($_SESSION['session1']))
                                     <div
                                         class="col-sm-10 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-1">
                                         <ul class="multi-column-dropdown">
+                                            <li class="heading"><a href="add_deals.php">Add Deals</a></li>
                                             <li class="heading"><a href="view_deals.php">View Deals</a></li>
                                         </ul>
                                     </div>
